@@ -58,6 +58,7 @@ header h1 {
   font-weight: 900;
   line-height: 1.2;
   color: #303030;
+  text-shadow: 1px 1px 5px rgb(245, 11, 11);
   letter-spacing: -1px;
 }
 header h2 {
