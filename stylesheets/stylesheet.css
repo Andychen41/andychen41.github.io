@@ -280,6 +280,7 @@ h1.branding {
   text-align: center;
   white-space: nowrap;
   display: block;
+  cursor: pointer;
 }
 .branding span {
   display: inline-block;
