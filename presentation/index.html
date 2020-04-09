@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>丹焱前端技术介绍</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background="./images/bg.jpg">
+					<h1 style="text-shadow: 0px 5px 18px black;">丹焱前端技术介绍</h1>
+					<h3></h3>
+					<p style="backdrop-filter: blur(3px); border: none;border-radius: 20px; box-shadow: 0px 4px 20px white;">
+						<small style="margin: 18px;">Created by <a style="color: #011e33;" target="_blank" href="http://www.shdanyan.com/">Front End team @ Danyantech  </a> <!-- and <a href="http://andychen41.github.io/">contributors</a> --></small>
+					</p>
+				</section>
+				
+
+				<section data-background="./images/bg.jpg">
+					<h2  style="text-shadow: 0px 5px 18px black;">Vue </h2>
+					<img width="100%" height="100%" style="backdrop-filter: blur(3px); border: none;border-radius: 20px;" data-src="./images/vue-arch.png" alt="Down arrow">
+
+				</section>
+				<section data-background="./images/bg.jpg">
+					<h2  style="text-shadow: 0px 5px 18px black;">Angular Ionic</h2>
+					<img width="100%" height="100%" style="backdrop-filter: blur(3px); border: none;border-radius: 20px;" data-src="./images/angular-ionic-arch.png" alt="Down arrow">
+
+				</section>
+
+				<section data-background="./images/bg.jpg">
+					<p style="backdrop-filter: blur(3px); border: none; text-shadow: 0px 5px 10px black;background: rgba(255, 255, 255, 0.2); border-radius: 20px;  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);" > Node Middleware </p>
+					<p class="fragment" style="text-shadow: 0px 5px 10px black; backdrop-filter: blur(3px);background: rgba(255, 255, 255, 0.2); border: none;border-radius: 20px;box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);" > Election ( Desktop App ) </p>
+					<p class="fragment" style="text-shadow: 0px 5px 10px black; backdrop-filter: blur(3px); background: rgba(255, 255, 255, 0.2); border: none;border-radius: 20px;box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);"> HD Responsive webside </p>
+				</section>
+
+				<section data-background="./images/bg.jpg">
+					<h3  style="text-shadow: 0px 5px 18px black;">我们目前遵循的代码规范</h3>
+
+					<p style="backdrop-filter: blur(3px); border: none; text-shadow: 0px 5px 10px black;background: rgba(255, 255, 255, 0.2); border-radius: 20px;  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);" > JS ESlint 代码风格</p>
+					<p class="fragment" style="text-shadow: 0px 5px 10px black; backdrop-filter: blur(3px);background: rgba(255, 255, 255, 0.2); border: none;border-radius: 20px;box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);" >
+					</p>
+					<p class="fragment" style="text-shadow: 0px 5px 10px black; backdrop-filter: blur(3px); background: rgba(255, 255, 255, 0.2); border: none;border-radius: 20px;box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);"> CSS: BEM命名规范 </p>
+				</section>
+
+				<!-- <section>Slide 2</section>
+
+				<section>Slide 2</section> -->
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				hash: true,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/highlight/highlight.js' },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
