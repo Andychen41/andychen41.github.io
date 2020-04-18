@@ -61,36 +61,48 @@
 					<p class="fragment" style="text-shadow: 0px 5px 10px black; backdrop-filter: blur(3px); background: rgba(255, 255, 255, 0.2); border: none;border-radius: 20px;box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);"> CSS: BEM命名规范 </p>
 				</section>
 
-				<section data-background="./images/bg.jpg">
-					<h3  style="text-shadow: 0px 5px 18px black;">XSS Prevention Rules</h3>
 
-					<p style="backdrop-filter: blur(3px); border: none; text-shadow: 0px 5px 10px black;background: rgba(255, 255, 255, 0.2); border-radius: 20px;  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);" > 
-						RULE 0 - Never Insert Untrusted Data Except in Allowed Locations
-					</p>
-					<p class="fragment" style="text-shadow: 0px 5px 10px black; backdrop-filter: blur(3px);background: rgba(255, 255, 255, 0.2); border: none;border-radius: 20px;box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);" >
-						RULE 1 - HTML Escape Before Inserting Untrusted Data into HTML Element Content
-					</p>
-					<p class="fragment" style="text-shadow: 0px 5px 10px black; backdrop-filter: blur(3px); background: rgba(255, 255, 255, 0.2); border: none;border-radius: 20px;box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);"> 
-						RULE 2 - Attribute Escape Before Inserting Untrusted Data into HTML Common Attributes
-					 </p>
-					 <p class="fragment" style="text-shadow: 0px 5px 10px black; backdrop-filter: blur(3px); background: rgba(255, 255, 255, 0.2); border: none;border-radius: 20px;box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);"> 
-					 	RULE 3 - JavaScript Escape Before Inserting Untrusted Data into JavaScript Data Values
-					 </p>
-					 <p class="fragment" style="text-shadow: 0px 5px 10px black; backdrop-filter: blur(3px); background: rgba(255, 255, 255, 0.2); border: none;border-radius: 20px;box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);"> 
-					 	RULE 4 - CSS Escape And Strictly Validate Before Inserting Untrusted Data into HTML Style Property Values
-					 </p>
-					 <p class="fragment" style="text-shadow: 0px 5px 10px black; backdrop-filter: blur(3px); background: rgba(255, 255, 255, 0.2); border: none;border-radius: 20px;box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);"> 
-					 	RULE 5 - URL Escape Before Inserting Untrusted Data into HTML URL Parameter Values
-					 </p>
-					 <p class="fragment" style="text-shadow: 0px 5px 10px black; backdrop-filter: blur(3px); background: rgba(255, 255, 255, 0.2); border: none;border-radius: 20px;box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);"> 
-					 	RULE 6 - Sanitize HTML Markup with a Library Designed for the Job
-					 </p>
-					 <p class="fragment" style="text-shadow: 0px 5px 10px black; backdrop-filter: blur(3px); background: rgba(255, 255, 255, 0.2); border: none;border-radius: 20px;box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);"> 
-					 	RULE 7 - Avoid JavaScript URL's
-					 </p>
-					 <p class="fragment" style="text-shadow: 0px 5px 10px black; backdrop-filter: blur(3px); background: rgba(255, 255, 255, 0.2); border: none;border-radius: 20px;box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);"> 
-					 	RULE 8 - Prevent DOM-based XSS
-					 </p>
+				<section>
+
+					<section data-background="./images/bg.jpg">
+						<h3  style="text-shadow: 0px 5px 18px black;">XSS Prevention Rules</h3>
+
+						<p style="backdrop-filter: blur(3px); border: none; text-shadow: 0px 5px 10px black;background: rgba(255, 255, 255, 0.2); border-radius: 20px;  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);" > 
+							RULE 0 - Never Insert Untrusted Data Except in Allowed Locations
+						</p>
+						<p class="fragment" style="text-shadow: 0px 5px 10px black; backdrop-filter: blur(3px);background: rgba(255, 255, 255, 0.2); border: none;border-radius: 20px;box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);" >
+							RULE 1 - HTML Escape Before Inserting Untrusted Data into HTML Element Content
+						</p>
+						<p class="fragment" style="text-shadow: 0px 5px 10px black; backdrop-filter: blur(3px); background: rgba(255, 255, 255, 0.2); border: none;border-radius: 20px;box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);"> 
+							RULE 2 - Attribute Escape Before Inserting Untrusted Data into HTML Common Attributes
+						 </p>
+						 <p class="fragment" style="text-shadow: 0px 5px 10px black; backdrop-filter: blur(3px); background: rgba(255, 255, 255, 0.2); border: none;border-radius: 20px;box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);"> 
+						 	RULE 3 - JavaScript Escape Before Inserting Untrusted Data into JavaScript Data Values
+						 </p>
+						 <a href="#" class="navigate-down">
+							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
+						</a>
+					</section>
+					<section data-background="./images/bg.jpg">
+						 <p class="fragment" style="text-shadow: 0px 5px 10px black; backdrop-filter: blur(3px); background: rgba(255, 255, 255, 0.2); border: none;border-radius: 20px;box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);"> 
+						 	RULE 4 - CSS Escape And Strictly Validate Before Inserting Untrusted Data into HTML Style Property Values
+						 </p>
+						 <p class="fragment" style="text-shadow: 0px 5px 10px black; backdrop-filter: blur(3px); background: rgba(255, 255, 255, 0.2); border: none;border-radius: 20px;box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);"> 
+						 	RULE 5 - URL Escape Before Inserting Untrusted Data into HTML URL Parameter Values
+						 </p>
+						 <p class="fragment" style="text-shadow: 0px 5px 10px black; backdrop-filter: blur(3px); background: rgba(255, 255, 255, 0.2); border: none;border-radius: 20px;box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);"> 
+						 	RULE 6 - Sanitize HTML Markup with a Library Designed for the Job
+						 </p>
+						 <p class="fragment" style="text-shadow: 0px 5px 10px black; backdrop-filter: blur(3px); background: rgba(255, 255, 255, 0.2); border: none;border-radius: 20px;box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);"> 
+						 	RULE 7 - Avoid JavaScript URL's
+						 </p>
+						 <p class="fragment" style="text-shadow: 0px 5px 10px black; backdrop-filter: blur(3px); background: rgba(255, 255, 255, 0.2); border: none;border-radius: 20px;box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);"> 
+						 	RULE 8 - Prevent DOM-based XSS
+						 </p>
+						 <a href="#/2">
+							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="transform: rotate(180deg); -webkit-transform: rotate(180deg);">
+						</a>
+					</section>
 				</section>
 
 				
