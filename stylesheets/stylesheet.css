@@ -58,7 +58,8 @@ header h1 {
   font-weight: 900;
   line-height: 1.2;
   color: #ebebeb; /* #303030;*/
-  text-shadow: 20px 20px 20px rgb(213, 0, 13);
+  text-shadow: 0px 0px 10px rgb(255, 255, 255);
+  /*  text-shadow: 20px 20px 20px rgb(213, 0, 13); */
   letter-spacing: -1px;
 }
 header h2 {
@@ -75,7 +76,8 @@ header h2 {
  /* background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;*/
 }
 .inner {
-  width: 620px;
+  width: 80vw;
+  /*width: 620px;*/
   margin: 0 auto;
 }
 #container .inner img {
@@ -394,6 +396,28 @@ h1.branding {
   display: block;
 }
 
+section#main_content {
+    animation-name: focus-in-contract;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+@keyframes focus-in-contract {
+  0%{
+    letter-spacing: 1em;
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100%{
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
 /* #Media Queries
 ================================================== */
 
@@ -418,7 +442,8 @@ h1.branding {
     display: none;
   }
   .inner {
-    width: 94%;
+    width: 80vw;
+    /*width: 94%;*/
     margin: 0 auto;
   }
 }
