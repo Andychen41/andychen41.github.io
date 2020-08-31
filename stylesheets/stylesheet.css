@@ -70,6 +70,7 @@ header h2 {
 }
 #container {
   min-height: 595px;
+  height: 100vh;
   filter: opacity(0.3);
  /* background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;*/
 }
@@ -262,9 +263,11 @@ dl dt {
   color: #303030;
 }
 footer {
+  position: absolute;
   padding-top: 20px;
   padding-bottom: 30px;
   margin-top: 40px;
+  bottom: 0;
   font-size: 13px;
   color: #aaa;
   background: transparent url('../images/hr.png') 0 0 no-repeat;
