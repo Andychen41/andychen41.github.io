@@ -275,6 +275,13 @@ footer {
   font-size: 13px;
   color: #aaa;
   background: transparent url('../images/hr.png') 0 0 no-repeat;
+  animation-name: roll-in-bottom;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
 }
 footer a {
   color: #666;
@@ -416,6 +423,19 @@ section#main_content {
   }
   100%{
     filter: blur(0);
+    opacity: 1;
+  }
+}
+
+@keyframes roll-in-bottom {
+  0%{
+    -webkit-transform: translateY(800px) rotate(540deg);
+    transform: translateY(800px) rotate(540deg);
+    opacity: 0;
+  }
+  100%{
+    -webkit-transform: translateY(0) rotate(0deg);
+    transform: translateY(0) rotate(0deg);
     opacity: 1;
   }
 }
